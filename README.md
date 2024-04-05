@@ -4,19 +4,10 @@ This application is for Wireapps technical interview. basically this is a simple
 here are some screen shots how it looks like in android and ios devices.
 
 # IOS Screen shots
-![CHEESE!](screenshots/ios/1.png)
-![CHEESE!](screenshots/ios/2.png)
-![CHEESE!](screenshots/ios/3.png)
-![CHEESE!](screenshots/ios/4.png)
-![CHEESE!](screenshots/ios/5.png)
+![CHEESE!](screenshots/ios/ss.png)
 
 # Android Screen shots
-![CHEESE!](screenshots/android/1.png)
-![CHEESE!](screenshots/android/2.png)
-![CHEESE!](screenshots/android/3.png)
-![CHEESE!](screenshots/android/4.png)
-![CHEESE!](screenshots/android/5.png)
-![CHEESE!](screenshots/android/6.png)
+
 
 # Getting Started
 
