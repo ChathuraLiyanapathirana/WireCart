@@ -9,6 +9,10 @@ here are some screen shots how it looks like in android and ios devices.
 # Android Screen shots
 ![CHEESE!](screenshots/android.png)
 
+# Tech Stack and Libraries
+* React Native Typescript
+* Zustand 
+* Tailwind (Nativewind)
 
 # Getting Started
 
