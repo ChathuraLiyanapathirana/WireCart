@@ -1,0 +1,93 @@
+{
+  "root": true,
+  "extends": [
+    "@react-native-community",
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "project": "tsconfig.json"
+  },
+  "plugins": [
+    "simple-import-sort",
+    "import"
+  ],
+  "rules": {
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "@typescript-eslint/consistent-type-imports": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/naming-convention": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "react-hooks/exhaustive-deps": "off"
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/*.js",
+        "**/*.ts",
+        "**/*.tsx"
+      ],
+      "rules": {
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-uses-react": "off",
+        "arrow-spacing": "warn",
+        "eqeqeq": "error",
+        "simple-import-sort/imports": [
+          "error",
+          {
+            "groups": [
+              [
+                "^react$",
+                "^react-native"
+              ],
+              [
+                "^@react-navigation",
+                "^@react-native-",
+                "^react-",
+                "^react-native-",
+                "^zustand"
+              ],
+              [
+                "^app/types",
+                "^types/"
+              ],
+              [
+                "^app/navigations",
+                "^navigations/"
+              ],
+              [
+                "^app/screens",
+                "^screens/"
+              ],
+              [
+                "^app/components",
+                "^components/"
+              ],
+              [
+                "^app/store",
+                "^store/"
+              ],
+              [
+                "^[a-z]"
+              ],
+              [
+                "^\\./(?=.*/)(?!/?$)",
+                "^\\.(?!/?$)",
+                "^\\./?$"
+              ],
+              [
+                "^\\.\\.(?!/?$)",
+                "^\\.\\./?$"
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "ignorePatterns": [
+    "metro.config.js"
+  ]
+}
