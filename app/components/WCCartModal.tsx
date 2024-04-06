@@ -1,4 +1,3 @@
-// WCCartModal.tsx
 import React, { useEffect, useState } from 'react';
 import { Modal, Platform, View } from 'react-native';
 

@@ -3,6 +3,13 @@
 This application is for Wireapps technical interview. basically this is a simple shopping cart application.
 here are some screen shots how it looks like in android and ios devices.
 
+# Note
+Implemented a function to compute the previous price, discounted price, and percentage discount based on the provided API response data, enabling accurate representation of pricing information in the user interface.
+
+```bash
+getMockedOldPriceAndPercentage()
+```
+
 # IOS Screen shots
 ![CHEESE!](screenshots/ios.png)
 
